@@ -1,14 +1,6 @@
 
-CONTENTS OF THIS FILE
----------------------
-
- * About Drupal
- * Configuration and features
- * Installation profiles
- * Appearance
- * Developing for Drupal
- * More information
-
+<h1>News Portal CImahi City</h1>
+<h3>Powered By Drupal 8</h3>
 ABOUT DRUPAL
 ------------
 
