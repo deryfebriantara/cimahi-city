@@ -1,0 +1,22 @@
+name: premium layers
+description: customized theme
+type: theme
+core: 8.x
+libraries:
+  - premiumlayers/global-css
+  - premiumlayers/global-js
+stylesheets-remove:
+  - core/themes/stable/css/views/views.module.css
+  - core/themes/stable/css/system/components/align.module.css
+
+regions:
+  content: 'Main Content'
+  header: 'Header'
+  header_slider_text_1: 'Header Slider Text 1'
+  header_slider_text_2: 'Header Slider Text 2'
+  header_slider_text_3: 'Header Slider Text 3'
+  footer: 'footer'
+  sidebar: 'sidebar'
+  header_icon: 'Header Icon'
+  header_add: 'Header Add'
+  primary_menu: 'primary menu'
