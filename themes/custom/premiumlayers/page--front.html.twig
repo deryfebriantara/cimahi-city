@@ -45,7 +45,8 @@
  * @ingroup themeable
  */
 #}
-{% include directory ~'/partials/header.html.twig' %}
+
+{% include directory ~'/partials/section.html.twig' %}
 
 <div class="layout-container">
 
@@ -81,27 +82,7 @@
   </main>
 
   {% if page.footer %}
-   {# <footer role="contentinfo"> #}
-      <footer class="footer_area" role="contentinfo">
-        <div class="footer_top">
-          <div class="container">
-            {{ page.footer }}
-          </div>
-        </div>
-        <div class="footer_bottom">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="footer_bottom_box">
-                  <p> &copy; COPY RIGHTS 2015 All Rights Reserved. </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-
-    {#</footer> #}
+    {#% include directory ~'/partials/footer.html.twig' %#}
   {% endif %}
 
 </div>{# /.layout-container #}
