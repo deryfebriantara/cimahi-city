@@ -254,7 +254,8 @@ a:hover { color: #000 }
   color:#fff;
 }
 .main_nav_box ul li.nav_news:hover {
-  background: #c66196 url("images/nav_news_hr.png") no-repeat scroll 27px 25px !important;
+  background: #c66196 !important;
+  text-align: center;
   transition: all 0.1s ease 0s;
 }
 .main_nav_box ul li.nav_fashion:hover {
@@ -285,7 +286,7 @@ a:hover { color: #000 }
   border-right:1px solid #c66196;
 }
 .main_nav_box ul li.nav_news {
-  background: rgba(0, 0, 0, 0) url("images/nav_news.png") no-repeat scroll 27px 25px;
+  background: rgba(0, 0, 0, 0);
   border-top: 2px solid #c66196;
 }
 .main_nav_box ul li.nav_news a {
@@ -525,7 +526,7 @@ ul.lev2sub {
 }
 .bl_single_news {
   float: left;
-  margin-right: 1%;
+  margin-right: 0.5%;
   max-height: 409px;
   position: relative;
   width: 32.6667%;

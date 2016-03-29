@@ -6,21 +6,22 @@
                     <div class="footer_top_box">
                         <div class="row">
                             <div class="col-md-4 col-sm-4 col-xs-12">
-                                <div class="footer_top_left"> <img src="themes/custom/premiumlayers/images/footer_logo.png" alt="Footer Logo" />
-                                    <p>Aenean luctus risus ac laoreet efficitur. Maecenas sibulum sapien ac turpis volutpat, ac laoreet tortor cursuris feugiat massa et metus molestie.aenean luctususaoreet efficitur. Maecenas vestibulum.</p>
+                                <div class="footer_top_left">{{ page.header_icon }}
+                                    <p>{{ page.footer_web_info }}</p>
                                     <div class="ft_contact">
                                         <h4>Contact</h4>
+
                                         <address>
-                                            <p> <i class="fa fa-map-marker"></i>Washington Square Park, New York, NY, United States</p>
-                                            <a href="tel:+100012354657"><i class="fa fa-phone"></i>Telephone : +1 000 123 54657</a><br>
-                                            <a href="mail-to:Info@News.com"><i class="fa fa-phone"></i> E-mail : Info@News.com</a>
+                                            <p> {{  page.footer_contact_address }}</p>
+                                            {{ page.footer_contact_telephone }}<br>
+                                            {{ page.footer_contact_email }}
                                         </address>
                                     </div>
                                     <div class="ft_connected">
                                         <h4>Stay connected</h4>
                                         <p>Follow us on social media and be up to date with the latest happenings.</p>
                                         <ul>
-                                            <li><a class="fa fa-facebook" href="index.html"></a></li>
+                                            <li>{{ page.social_link_facebook }}</li>
                                             <li><a class="fa fa-twitter" href="index.html"></a></li>
                                             <li><a class="fa fa-google-plus" href="index.html"></a></li>
                                             <li><a class="fa fa-linkedin" href="index.html"></a></li>
