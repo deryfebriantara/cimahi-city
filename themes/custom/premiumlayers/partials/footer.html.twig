@@ -6,7 +6,7 @@
                     <div class="footer_top_box">
                         <div class="row">
                             <div class="col-md-4 col-sm-4 col-xs-12">
-                                <div class="footer_top_left">{{ page.header_icon }}
+                                <div class="footer_top_left">{{ page.footer_web_logo }}
                                     <p>{{ page.footer_web_info }}</p>
                                     <div class="ft_contact">
                                         <h4>Contact</h4>
@@ -22,8 +22,8 @@
                                         <p>Follow us on social media and be up to date with the latest happenings.</p>
                                         <ul>
                                             <li>{{ page.social_link_facebook }}</li>
-                                            <li><a class="fa fa-twitter" href="index.html"></a></li>
-                                            <li><a class="fa fa-google-plus" href="index.html"></a></li>
+                                            <li>{{ page.social_link_twitter }}</li>
+                                            <li>{{ page.social_link_google }}</li>
                                             <li><a class="fa fa-linkedin" href="index.html"></a></li>
                                             <li><a class="fa fa-tumblr" href="index.html"></a></li>
                                         </ul>
@@ -34,24 +34,7 @@
                                 <div class="footer_top_middle">
                                     <div class="ftm_realted_post">
                                         <h4>Popular post</h4>
-                                        <div class="single_related_post">
-                                            <div class="srp_img"> <a href="blog-single-slider-post.html"> <img src="themes/custom/premiumlayers/images/s_rl_pic1.jpg" alt="" /> </a> </div>
-                                            <div class="rel_post_text"> <span>Jun 24,2015</span>
-                                                <p>We can design for your desire.We are here...</p>
-                                            </div>
-                                        </div>
-                                        <div class="single_related_post">
-                                            <div class="srp_img"> <a href="blog-single-slider-post.html"> <img src="themes/custom/premiumlayers/images/s_rl_pic2.jpg" alt="" /> </a> </div>
-                                            <div class="rel_post_text"> <span>Jun 24,2015</span>
-                                                <p>We can design for your desire.We are here...</p>
-                                            </div>
-                                        </div>
-                                        <div class="single_related_post">
-                                            <div class="srp_img"> <a href="blog-single-slider-post.html"> <img src="themes/custom/premiumlayers/images/s_rl_pic3.jpg" alt="" /> </a> </div>
-                                            <div class="rel_post_text"> <span>Jun 24,2015</span>
-                                                <p>We can design for your desire.We are here...</p>
-                                            </div>
-                                        </div>
+                                            {{ page.footer_latest_post }}
                                     </div>
                                     <div class="ftm_newsletter">
                                         <h4>Newsletter</h4>
@@ -67,22 +50,12 @@
                                 <div class="footer_top_right">
                                     <div class="ftr_video">
                                         <h4>video of the day</h4>
-                                        <div class="results_video embed-responsive embed-responsive-16by9">
-                                            <iframe class="embed-responsive-item" width="560" height="350" src="https://www.youtube.com/embed/ScMzIvxBSi4" allowfullscreen></iframe>
-                                        </div>
+                                        {{ page.footer_video }}
                                     </div>
                                     <div class="ftr_tags">
                                         <h4>Tags</h4>
                                         <ul id="tag">
-                                            <li><a href="index.html">Android</a></li>
-                                            <li><a href="index.html">Apple</a></li>
-                                            <li><a href="index.html">Games</a></li>
-                                            <li><a href="index.html">Apps and Software</a></li>
-                                            <li><a href="index.html">Dev and Design</a></li>
-                                            <li><a href="index.html">Gallery</a></li>
-                                            <li><a href="index.html">Life and Style</a></li>
-                                            <li><a href="index.html">Technology</a></li>
-                                            <li><a href="index.html">Sports</a></li>
+                                            {{ page.footer_tags }}
                                         </ul>
                                     </div>
                                 </div>
