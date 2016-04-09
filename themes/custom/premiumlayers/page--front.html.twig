@@ -63,9 +63,24 @@
   <main role="main">
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
-    <div class="layout-content">
-      {{ page.content }}
-    </div>{# /.layout-content #}
+   {# <div class="main_news_wrapper">
+      <div class="container">
+        {{ page.content }}
+      </div>#}
+      <section class="main_news_wrapper">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-9 col-sm-9 col-xs-12">
+                    {% include directory~'/partials/content-front.html.twig' %}
+
+                      </div>
+                  {% include directory~'/partials/sidebar.html.twig' %}
+                  </div>
+              </div>
+          </section>
+
+
+</div>{# /.layout-content #}
 
     {% if page.sidebar_first %}
       <aside class="layout-sidebar-first" role="complementary">

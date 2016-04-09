@@ -29,6 +29,7 @@
  * @see template_preprocess_views_view_fields()
  */
 #}
+
 {% for field in fields -%}
   {{ field.separator }}
   {%- if field.wrapper_element -%}
@@ -50,3 +51,4 @@
     </{{ field.wrapper_element }}>
   {%- endif %}
 {%- endfor %}
+

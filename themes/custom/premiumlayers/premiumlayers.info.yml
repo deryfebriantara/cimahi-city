@@ -11,6 +11,7 @@ stylesheets-remove:
 
 regions:
   content: 'Main Content'
+  content_front: 'content front based on menu'
   header: 'Header'
   header_slider_text_1: 'Header Slider Text 1'
   header_slider_text_2: 'Header Slider Text 2'
@@ -31,6 +32,8 @@ regions:
   footer_video: 'footer video of the day'
   footer_tags: 'footer tags'
   sidebar: 'sidebar'
+  search: 'search'
+  sidebar_latestpost: 'sidebar latest post'
   header_icon: 'Header Icon'
   header_add: 'Header Add'
   primary_menu: 'primary menu'
