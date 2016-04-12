@@ -10,5 +10,3 @@ global-js:
   js:
     js/main.js: {}
     js/bootstrap.min.js: {}
-  dependencies:
-      - core/jquery

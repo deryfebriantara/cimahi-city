@@ -11,7 +11,9 @@ stylesheets-remove:
 
 regions:
   content: 'Main Content'
-  content_front: 'content front based on menu'
+  content_front: 'content front popular news'
+  content_front_2: 'content front popular showbiz'
+  content_front_3: 'content front popular gadget'
   header: 'Header'
   header_slider_text_1: 'Header Slider Text 1'
   header_slider_text_2: 'Header Slider Text 2'

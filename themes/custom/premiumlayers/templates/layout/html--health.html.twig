@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html{{ html_attributes }}>
+<head>
+    <head-placeholder token="{{ placeholder_token|raw }}">
+        <title>{{ head_title|safe_join(' | ') }}</title>
+        <css-placeholder token="{{ placeholder_token|raw }}">
+            <js-placeholder token="{{ placeholder_token|raw }}">
+                </head>
+<body{{ attributes }}>
+{% include directory~'/partials/header.html.twig' %}
+<br>
+<br>
+<a href="#main-content" class="visually-hidden focusable">
+    {{ 'Skip to main content'|t }}
+</a>
+
+{{ page_top }}
+<section class="main_news_wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9 col-sm-9 col-xs-12">
+
+                {{ page }}
+            </div>
+            {% include directory~'/partials/sidebar.html.twig' %}
+        </div>
+    </div>
+</section>
+{{ page_bottom }}
+<js-bottom-placeholder token="{{ placeholder_token|raw }}">
+    {% include directory~'/partials/footer.html.twig' %}
+</body>
+</html>
